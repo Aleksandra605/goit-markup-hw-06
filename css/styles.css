@@ -175,12 +175,11 @@ header ul a:focus {
   background-color: var(--white);
 }
 
-/*.container {
-  width: 1170px;
+.container {display: flex;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;*/
+ 
 
 
 .list {
@@ -880,8 +879,7 @@ border-radius: 0px 0px 4px 4px;
 
 .section-customers {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
   padding-top: 94px;
   padding-bottom: 94px;
 }
